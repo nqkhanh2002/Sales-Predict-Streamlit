@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-from streamlit.config import features, salesDependingFeatures, model_load
+from config import features, salesDependingFeatures, model_load
 
 #feature update
 def feature_update(li,features):

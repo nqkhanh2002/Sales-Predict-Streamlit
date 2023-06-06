@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 
-from streamlit.config import quarter_1, quarter_2,quarter_3, quarter_4, quarter_1_datasales, quarter_2_datasales, quarter_3_datasales, quarter_4_datasales
+from config import quarter_1, quarter_2,quarter_3, quarter_4, quarter_1_datasales, quarter_2_datasales, quarter_3_datasales, quarter_4_datasales
 
 # catplot
 def cat(x, y, df, k):

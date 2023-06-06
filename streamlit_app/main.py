@@ -1,9 +1,9 @@
 import streamlit as st
 
-import streamlit.home as home
-import streamlit.data_visulization as data_visulization
+import home as home
+import data_visulization as data_visulization
 import model
-from streamlit.config import nav_image
+from config import nav_image
 
 #Pages in the app
 PAGES = {
@@ -69,4 +69,3 @@ multiple charts-box, line, bar, time series etc.</p>
 or select one or multiple fields to be manually edited for predictions.</p>
 '''  
 st.sidebar.markdown(html4, unsafe_allow_html=True)
-======

@@ -1,4 +1,4 @@
-datafields = "D:\DESKTOP\Rossman\data\datafields.csv"
+datafields = "D:/DESKTOP/Rossman/data/datafields.csv"
 
 nav_image = "D:\DESKTOP\Rossman\data\navbar.png"
 home_image = "D:\DESKTOP\Rossman\data\home.png"
