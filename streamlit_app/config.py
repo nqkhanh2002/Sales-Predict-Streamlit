@@ -13,7 +13,8 @@ quarter_2_datasales = "data/q2_datesales.csv"
 quarter_3_datasales = "data/q3_datesales.csv"
 quarter_4_datasales = "data/q4_datesales.csv"
 
-features = ["DayOfWeek","DayOfWeekName","MonthName","Customers","Promo","StateHoliday","SchoolHoliday","StoreType","Assortment","CompetitionDistance","CompetitionOpenSinceMonth","Promo2SinceWeek","PromoInterval"]
-salesDependingFeatures = [6,2,6,437,0,0,0,0,0,4520.0,2.0,14.0,1]
+features = ["DayOfWeek","Customers", "Promo", "StateHoliday", "SchoolHoliday", "StoreType", "Assortment", "CompetitionDistance", 
+            "CompetitionOpenSinceMonth","Promo2SinceWeek", "PromoInterval", "MonthName"]
+salesDependingFeatures = [2,0,0,1,1,3, 2, 5350.00,4.00	,22.00,	2	,6]
 
 model_load = "model/sales_prediction.sav"
