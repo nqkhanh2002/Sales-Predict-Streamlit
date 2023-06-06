@@ -27,12 +27,12 @@ st.markdown(
     """
 <style>
 .sidebar .sidebar-content {
-    background-image: linear-gradient(#292929,#FFFFFF;9);
+    background-image: linear-gradient(#292929,#E65142;9);
     color: black;
     align-text: center;
 }
 hr.rounded {
-        border-top: 6px solid #FFFFFF;
+        border-top: 6px solid #E65142;
         border-radius: 5px;
     }
 </style>
@@ -44,6 +44,7 @@ st.sidebar.image(nav_image, use_column_width=True)
 
 #navbar content-1
 html3 = '''
+<h2 style="text-align: center;">University of Information Technology - VNUHCM</h2>
 
 <hr class="rounded">
 '''
