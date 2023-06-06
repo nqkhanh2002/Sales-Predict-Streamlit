@@ -1,7 +1,7 @@
 datafields = "data/datafields.csv"
 
-nav_image = "data/navbar.png"
-home_image = "data/home.png"
+nav_image = "data/Logo_UIT.jpg"
+home_image = "data/home.jpg"
 
 quarter_1 = "data/q1.csv"
 quarter_2 = "data/q2.csv"
@@ -16,4 +16,4 @@ quarter_4_datasales = "data/q4_datesales.csv"
 features = ["DayOfWeek","DayOfWeekName","MonthName","Customers","Promo","StateHoliday","SchoolHoliday","StoreType","Assortment","CompetitionDistance","CompetitionOpenSinceMonth","Promo2SinceWeek","PromoInterval"]
 salesDependingFeatures = [6,2,6,437,0,0,0,0,0,4520.0,2.0,14.0,1]
 
-model_load = "model\sales_prediction.sav"
+model_load = "model/sales_prediction.sav"

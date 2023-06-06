@@ -44,9 +44,7 @@ st.sidebar.image(nav_image, use_column_width=True)
 
 #navbar content-1
 html3 = '''
-<h2 style="text-align: center;">Apparent Dev</h2>
-<p style="text-align: center; font-size: 15px">Apparent Dev consist of Data Science enthusiasts working on projects in open source domain. Apparent Dev 
-strives to work on <i>Data driven</i> solutions for end users.</p>
+
 <hr class="rounded">
 '''
 st.sidebar.markdown(html3, unsafe_allow_html=True)
