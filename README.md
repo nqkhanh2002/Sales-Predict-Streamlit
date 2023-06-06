@@ -30,7 +30,7 @@ streamlit run main.py
 ```
 
 ## Deployment 
-The app is deployed using the [heroku](https://heroku.com/) as <b>PAS</b>.<br> 
+The app is deployed using the [Streamlit](https://streamlit.io/) as <b>PAS</b>.<br> 
 Follow the following link to check the live deployment of the app.<br>
-[Rossman Sales Analysis and Prediction](https://rossman-streamlit.herokuapp.com/)
+[Rossman Sales Analysis and Prediction](https://nqkhanh2002-sales-predict-streamlit-streamlit-appmain-isinzy.streamlit.app/)
 
