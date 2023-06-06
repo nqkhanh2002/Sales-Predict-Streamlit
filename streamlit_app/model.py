@@ -41,6 +41,8 @@ def app():
     st.subheader("Default Values")
     st.write(pd.DataFrame(d))
     loaded_model = pickle.load(open(model_load, 'rb'))
-    model_ = loaded_model.predict([salesDependingFeatures])
+    prediction_data = pd.DataFrame([salesDependingFeatures],
+                               columns=features)
+    model_ = loaded_model.predict(prediction_data)
     st.subheader("The Predicted Value")
     st.write(model_)
