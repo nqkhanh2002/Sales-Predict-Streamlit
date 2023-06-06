@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-from config import datafields, home_image
+from config import *
 
 #page functioning
 def app():

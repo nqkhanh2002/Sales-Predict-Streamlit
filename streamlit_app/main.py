@@ -1,9 +1,9 @@
 import streamlit as st
 
-import home as home
-import data_visulization as data_visulization
+import home 
+import data_visulization 
 import model
-from config import nav_image
+from config import *
 
 #Pages in the app
 PAGES = {

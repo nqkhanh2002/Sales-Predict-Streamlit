@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-from config import features, salesDependingFeatures, model_load
+from config import *
 
 #feature update
 def feature_update(li,features):
@@ -38,9 +38,9 @@ def app():
     for i in range(len(list)):
         salesDependingFeatures[list[i]] = value[i]
     d ={"Feature ":features, "Value for Prediction": salesDependingFeatures}
-    st.subheader("Default values- ")
+    st.subheader("Default Values")
     st.write(pd.DataFrame(d))
     loaded_model = pickle.load(open(model_load, 'rb'))
     model_ = loaded_model.predict([salesDependingFeatures])
-    st.subheader("The Predicted Value - ")
+    st.subheader("The Predicted Value")
     st.write(model_)
