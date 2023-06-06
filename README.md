@@ -22,7 +22,7 @@ pip install -r requirements.txt
 * Set all the correct local path\directory for the data dependencies from [data](\data) in [config.py](\streamlit_app]config.py) 
 * Go to app directory using 
 ```
-cd app
+cd streamlit_app
 ``` 
 and run the app using 
 ```
