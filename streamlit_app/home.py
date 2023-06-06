@@ -70,7 +70,7 @@ def app():
     df2 = pd.DataFrame(data, columns=["Quarters", "Range"])
 
     #data description
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     
     button1 = col1.button("Data Fields")
     if(button1):
