@@ -34,11 +34,3 @@ The app is deployed using the [heroku](https://heroku.com/) as <b>PAS</b>.<br>
 Follow the following link to check the live deployment of the app.<br>
 [Rossman Sales Analysis and Prediction](https://rossman-streamlit.herokuapp.com/)
 
-## Demo
-##### Home page for the web app
-![Home page](home.gif)
-##### Data Visualization for analysis
-![Data Visualization](visualization.gif)
-##### Sales forecast
-![Model Prediction](model.gif)
-
