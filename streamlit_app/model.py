@@ -18,7 +18,7 @@ def app():
     html1 = '''
                 <style>
                 #heading{
-                  color: #FFFFFF;
+                  color: #E65142;
                   text-align:top-left;
                   font-size: 45px;
                 }
