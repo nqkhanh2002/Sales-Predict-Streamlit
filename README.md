@@ -18,6 +18,7 @@ In [Streamlit App folder](/streamlit_app) :
 * Install all the dependecies using [requirements.txt](/streamlit_app/requirements.txt) using 
 <br>```pip install -r requirements.txt```
 * Set all the correct local path\directory for the data dependencies from [data](\data) in [config.py](\streamlit_app]config.py) 
+* Go to app directory using <br>```cd app``` and run the app using <br>```streamlit run app.py```
 
 ## Deployment 
 The app is deployed using the [heroku](https://heroku.com/) as <b>PAS</b>.<br> 
@@ -32,10 +33,3 @@ Follow the following link to check the live deployment of the app.<br>
 ##### Sales forecast
 ![Model Prediction](model.gif)
 
-
-#### Authored By:
-- [Archit Sharma](https://www.linkedin.com/in/archiit-sharmaa/)
-#### Project By :
-- [Archit Sharma](https://www.linkedin.com/in/archiit-sharmaa/)
-- [Prakhar Pandey](https://www.linkedin.com/in/prakhar-pandey-a307b7191/)
-- [Devansh Kaushik](https://www.linkedin.com/in/devansh-kaushik-b5912b174/)
