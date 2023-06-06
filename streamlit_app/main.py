@@ -27,12 +27,12 @@ st.markdown(
     """
 <style>
 .sidebar .sidebar-content {
-    background-image: linear-gradient(#292929,#E65142;9);
+    background-image: linear-gradient(#292929,#FFFFFF;9);
     color: black;
     align-text: center;
 }
 hr.rounded {
-        border-top: 6px solid #E65142;
+        border-top: 6px solid #FFFFFF;
         border-radius: 5px;
     }
 </style>

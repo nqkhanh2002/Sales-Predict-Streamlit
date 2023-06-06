@@ -13,17 +13,17 @@ def app():
       
      }
     #heading{
-      color: #E65142;
+      color: #FFFFFF;
       text-align:top-left;
       font-size: 45px;
     }
     #sub_heading1{
-    color: #E65142;
+    color: #FFFFFF;
     text-align: right;
     font-size: 30px;
     }
     #sub_heading2{
-    color: #E65142;
+    color: #FFFFFF;
     text-align: left;
     font-size: 30px;
       }
@@ -37,7 +37,7 @@ def app():
     }
     /* Rounded border */
     hr.rounded {
-        border-top: 6px solid #E65142;
+        border-top: 6px solid #FFFFFF;
         border-radius: 5px;
     }
     </style>

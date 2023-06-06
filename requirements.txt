@@ -4,5 +4,5 @@ scikit-learn
 scipy
 seaborn
 protobuf==3.20.*
-streamlit==0.78.0
+streamlit
 gunicorn
