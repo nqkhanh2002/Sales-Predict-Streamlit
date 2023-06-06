@@ -26,7 +26,7 @@ def dateplot(x, y, df, k):
 
 #plotting the Sales vs StoreType
 def salesvsstoretype():
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     type_chart = col1.selectbox("Select the Chart type", ('Strip', 'Boxen', 'Box'))
     data1 = col2.selectbox("Select the financial quarter", ('quarter 1', 'quarter 2', 'quarter 3', 'quarter 4'))
     if (type_chart == 'Strip'):
@@ -59,7 +59,7 @@ def salesvsstoretype():
 
 #plotting the WeekDay vs Sales
 def weekdayvssales():
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     type1 = col1.selectbox("Select the Chart type", ('Bar', 'Strip', 'Time Series Chart'))
     data1 = col2.selectbox("Select the financial quarter", ('quarter 1', 'quarter 2', 'quarter 3', 'quarter 4'))
     if (type1 == 'Bar'):
@@ -92,7 +92,7 @@ def weekdayvssales():
 
 #plotting the month vs sales
 def monthvssales():
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     type1 = col1.selectbox("Select the Chart type", ('Bar',))
     data1 = col2.selectbox("Select the financial quarter", ('quarter 1', 'quarter 2', 'quarter 3', 'quarter 4'))
     if (type1 == 'Bar'):
@@ -107,7 +107,7 @@ def monthvssales():
 
 #plotting customer vs storetype
 def customervsstoretype():
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     type1 = col1.selectbox("Select the Chart type", ('Bar',))
     data1 = col2.selectbox("Select the financial quarter", ('quarter 1', 'quarter 2', 'quarter 3', 'quarter 4'))
     if (type1 == 'Bar'):
@@ -122,7 +122,7 @@ def customervsstoretype():
 
 #plotting the datevsales
 def datevssales():
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     type1 = col1.selectbox("Select the Chart type", ('Time Series Chart',))
     data1 = col2.selectbox("Select the financial quarter", ('quarter 1', 'quarter 2', 'quarter 3', 'quarter 4'))
     if (type1 == 'Time Series Chart'):
