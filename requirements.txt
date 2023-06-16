@@ -8,3 +8,4 @@ streamlit==1.23.0
 gunicorn
 # pickle
 xgboost
+keras
