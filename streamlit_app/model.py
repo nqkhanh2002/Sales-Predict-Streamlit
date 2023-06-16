@@ -48,7 +48,7 @@ def app():
                                columns=features)
     
     model_ = loaded_model.predict(prediction_data).flatten()
-    loaded_model_DL = load_model(model_DL).predict(prediction_data).flatten()
+    loaded_model_DL = keras.models.load_model(model_DL).predict(prediction_data).flatten()
     # st.subheader("The Predicted Value - XGBRegressor")
     # st.write(model_)
     # st.subheader("The Predicted Value - Deep Learning Model")
