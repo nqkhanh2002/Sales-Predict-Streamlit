@@ -1,3 +1,4 @@
+keras
 numpy==1.19.2
 pandas
 scikit-learn
@@ -8,4 +9,3 @@ streamlit==1.23.0
 gunicorn
 # pickle
 xgboost
-keras
