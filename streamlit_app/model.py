@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
-import tensorflow as tf
+# import tensorflow as tf
 from config import *
 
 from keras.models import load_model
